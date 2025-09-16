@@ -3,7 +3,7 @@ name = "ml-zoomcamp"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Eveliina Hampus",email = "t2haev00@students.oamk.fi"}
+    {name = "Eveliina Hampus",email = "eveliinahampus@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.12"
