@@ -1,11 +1,11 @@
-.PHONY: install format lint test clean
+.PHONY: install ruff lint test clean
 
 # Install all project dependencies
 install:
 	poetry install --with dev --sync
 
 # Format code using Ruff
-format:
+ruff:
 	poetry run ruff format .
 
 # Check for linting errors without fixing them
