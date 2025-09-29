@@ -18,6 +18,6 @@ test:
 
 # Remove build artifacts and temporary files
 clean:
-	rm -rf .venv .pytest_cache dist
+	rm -rf .venv .pytest_cache dist .ruff_cache
 	find . -type f -name "*.pyc" -delete
 	find . -type d -name "__pycache__" -delete
